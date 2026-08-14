@@ -1,4 +1,10 @@
 import json
+from pathlib import Path
+import shutil
+
+API_DATA_FOLDER = Path(
+    r"C:\Users\Benjamin\OneDrive\Documents\GitHub\FactorioAPI\src\data"
+)
 
 def get_icon(prototype):
     if "icon" in prototype:
@@ -161,6 +167,21 @@ def transform_fluid(fluid):
 
     return transformed_fluid
 
+def copy_generated_files_to_api():
+    files_to_copy = [
+        "items.json",
+        "fluids.json",
+        "recipes.json"
+    ]
+
+    for file_name in files_to_copy:
+        source = Path("./data") / file_name
+        destination = API_DATA_FOLDER / file_name
+
+        shutil.copy2(source, destination)
+
+        print(f"Copied {file_name} to FactorioAPI")
+
 with open("./data/data-raw-dump.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
@@ -193,3 +214,5 @@ with open("./data/items.json", "w", encoding="utf-8") as file:
 
 with open("./data/fluids.json", "w", encoding="utf-8") as file:
     json.dump(fluid_list, file, indent=2)
+
+copy_generated_files_to_api()
