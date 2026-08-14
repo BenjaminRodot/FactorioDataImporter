@@ -1,133 +1,18 @@
 [
   {
-    "id": "programmable-speaker",
-    "name": "Programmable Speaker",
-    "icon": "__base__/graphics/icons/programmable-speaker.png"
-  },
-  {
-    "id": "satellite",
-    "name": "Satellite",
-    "icon": "__base__/graphics/icons/satellite.png"
-  },
-  {
-    "id": "battery-equipment",
-    "name": "Battery Equipment",
-    "icon": "__base__/graphics/icons/battery-equipment.png"
-  },
-  {
-    "id": "speed-module",
-    "name": "Speed Module",
-    "icon": "__base__/graphics/icons/speed-module.png"
-  },
-  {
-    "id": "lubricant-barrel",
-    "name": "Lubricant Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
-  },
-  {
-    "id": "long-handed-inserter",
-    "name": "Long Handed Inserter",
-    "icon": "__base__/graphics/icons/long-handed-inserter.png"
-  },
-  {
-    "id": "pump",
-    "name": "Pump",
-    "icon": "__base__/graphics/icons/pump.png"
-  },
-  {
     "id": "personal-laser-defense-equipment",
     "name": "Personal Laser Defense Equipment",
     "icon": "__base__/graphics/icons/personal-laser-defense-equipment.png"
   },
   {
-    "id": "defender-capsule",
-    "name": "Defender Capsule",
-    "icon": "__base__/graphics/icons/defender-capsule.png"
+    "id": "chemical-science-pack",
+    "name": "Chemical Science Pack",
+    "icon": "__base__/graphics/icons/chemical-science-pack.png"
   },
   {
-    "id": "artillery-turret",
-    "name": "Artillery Turret",
-    "icon": "__base__/graphics/icons/artillery-turret.png"
-  },
-  {
-    "id": "assembling-machine-3",
-    "name": "Assembling Machine 3",
-    "icon": "__base__/graphics/icons/assembling-machine-3.png"
-  },
-  {
-    "id": "electric-furnace",
-    "name": "Electric Furnace",
-    "icon": "__base__/graphics/icons/electric-furnace.png"
-  },
-  {
-    "id": "electric-engine-unit",
-    "name": "Electric Engine Unit",
-    "icon": "__base__/graphics/icons/electric-engine-unit.png"
-  },
-  {
-    "id": "fast-splitter",
-    "name": "Fast Splitter",
-    "icon": "__base__/graphics/icons/fast-splitter.png"
-  },
-  {
-    "id": "light-armor",
-    "name": "Light Armor",
-    "icon": "__base__/graphics/icons/light-armor.png"
-  },
-  {
-    "id": "rocket-part",
-    "name": "Rocket Part",
-    "icon": "__base__/graphics/icons/rocket-part.png"
-  },
-  {
-    "id": "iron-plate",
-    "name": "Iron Plate",
-    "icon": "__base__/graphics/icons/iron-plate.png"
-  },
-  {
-    "id": "laser-turret",
-    "name": "Laser Turret",
-    "icon": "__base__/graphics/icons/laser-turret.png"
-  },
-  {
-    "id": "wood",
-    "name": "Wood",
-    "icon": "__base__/graphics/icons/wood.png"
-  },
-  {
-    "id": "heavy-armor",
-    "name": "Heavy Armor",
-    "icon": "__base__/graphics/icons/heavy-armor.png"
-  },
-  {
-    "id": "modular-armor",
-    "name": "Modular Armor",
-    "icon": "__base__/graphics/icons/modular-armor.png"
-  },
-  {
-    "id": "explosives",
-    "name": "Explosives",
-    "icon": "__base__/graphics/icons/explosives.png"
-  },
-  {
-    "id": "rocket-silo",
-    "name": "Rocket Silo",
-    "icon": "__base__/graphics/icons/rocket-silo.png"
-  },
-  {
-    "id": "fluid-wagon",
-    "name": "Fluid Wagon",
-    "icon": "__base__/graphics/icons/fluid-wagon.png"
-  },
-  {
-    "id": "steel-furnace",
-    "name": "Steel Furnace",
-    "icon": "__base__/graphics/icons/steel-furnace.png"
-  },
-  {
-    "id": "coal",
-    "name": "Coal",
-    "icon": "__base__/graphics/icons/coal.png"
+    "id": "big-electric-pole",
+    "name": "Big Electric Pole",
+    "icon": "__base__/graphics/icons/big-electric-pole.png"
   },
   {
     "id": "solid-fuel",
@@ -135,84 +20,9 @@
     "icon": "__base__/graphics/icons/solid-fuel.png"
   },
   {
-    "id": "chemical-plant",
-    "name": "Chemical Plant",
-    "icon": "__base__/graphics/icons/chemical-plant.png"
-  },
-  {
-    "id": "electric-mining-drill",
-    "name": "Electric Mining Drill",
-    "icon": "__base__/graphics/icons/electric-mining-drill.png"
-  },
-  {
-    "id": "energy-shield-mk2-equipment",
-    "name": "Energy Shield Mk2 Equipment",
-    "icon": "__base__/graphics/icons/energy-shield-mk2-equipment.png"
-  },
-  {
-    "id": "energy-shield-equipment",
-    "name": "Energy Shield Equipment",
-    "icon": "__base__/graphics/icons/energy-shield-equipment.png"
-  },
-  {
-    "id": "display-panel",
-    "name": "Display Panel",
-    "icon": "__base__/graphics/icons/display-panel.png"
-  },
-  {
-    "id": "solar-panel-equipment",
-    "name": "Solar Panel Equipment",
-    "icon": "__base__/graphics/icons/solar-panel-equipment.png"
-  },
-  {
-    "id": "substation",
-    "name": "Substation",
-    "icon": "__base__/graphics/icons/substation.png"
-  },
-  {
-    "id": "depleted-uranium-fuel-cell",
-    "name": "Depleted Uranium Fuel Cell",
-    "icon": "__base__/graphics/icons/depleted-uranium-fuel-cell.png"
-  },
-  {
-    "id": "car",
-    "name": "Car",
-    "icon": "__base__/graphics/icons/car.png"
-  },
-  {
-    "id": "sulfuric-acid-barrel",
-    "name": "Sulfuric Acid Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
-  },
-  {
-    "id": "rocket-fuel",
-    "name": "Rocket Fuel",
-    "icon": "__base__/graphics/icons/rocket-fuel.png"
-  },
-  {
-    "id": "stone-brick",
-    "name": "Stone Brick",
-    "icon": "__base__/graphics/icons/stone-brick.png"
-  },
-  {
-    "id": "raw-fish",
-    "name": "Raw Fish",
-    "icon": "__base__/graphics/icons/fish.png"
-  },
-  {
-    "id": "bulk-inserter",
-    "name": "Bulk Inserter",
-    "icon": "__base__/graphics/icons/bulk-inserter.png"
-  },
-  {
-    "id": "train-stop",
-    "name": "Train Stop",
-    "icon": "__base__/graphics/icons/train-stop.png"
-  },
-  {
-    "id": "fast-transport-belt",
-    "name": "Fast Transport Belt",
-    "icon": "__base__/graphics/icons/fast-transport-belt.png"
+    "id": "buffer-chest",
+    "name": "Buffer Chest",
+    "icon": "__base__/graphics/icons/buffer-chest.png"
   },
   {
     "id": "artillery-shell",
@@ -220,94 +30,24 @@
     "icon": "__base__/graphics/icons/artillery-shell.png"
   },
   {
-    "id": "processing-unit",
-    "name": "Processing Unit",
-    "icon": "__base__/graphics/icons/processing-unit.png"
+    "id": "fluid-wagon",
+    "name": "Fluid Wagon",
+    "icon": "__base__/graphics/icons/fluid-wagon.png"
   },
   {
-    "id": "belt-immunity-equipment",
-    "name": "Belt Immunity Equipment",
-    "icon": "__base__/graphics/icons/belt-immunity-equipment.png"
+    "id": "small-lamp",
+    "name": "Small Lamp",
+    "icon": "__base__/graphics/icons/small-lamp.png"
   },
   {
-    "id": "passive-provider-chest",
-    "name": "Passive Provider Chest",
-    "icon": "__base__/graphics/icons/passive-provider-chest.png"
+    "id": "firearm-magazine",
+    "name": "Firearm Magazine",
+    "icon": "__base__/graphics/icons/firearm-magazine.png"
   },
   {
-    "id": "automation-science-pack",
-    "name": "Automation Science Pack",
-    "icon": "__base__/graphics/icons/automation-science-pack.png"
-  },
-  {
-    "id": "oil-refinery",
-    "name": "Oil Refinery",
-    "icon": "__base__/graphics/icons/oil-refinery.png"
-  },
-  {
-    "id": "destroyer-capsule",
-    "name": "Destroyer Capsule",
-    "icon": "__base__/graphics/icons/destroyer-capsule.png"
-  },
-  {
-    "id": "heat-pipe",
-    "name": "Heat Pipe",
-    "icon": "__base__/graphics/icons/heat-pipe.png"
-  },
-  {
-    "id": "engine-unit",
-    "name": "Engine Unit",
-    "icon": "__base__/graphics/icons/engine-unit.png"
-  },
-  {
-    "id": "slowdown-capsule",
-    "name": "Slowdown Capsule",
-    "icon": "__base__/graphics/icons/slowdown-capsule.png"
-  },
-  {
-    "id": "iron-chest",
-    "name": "Iron Chest",
-    "icon": "__base__/graphics/icons/iron-chest.png"
-  },
-  {
-    "id": "battery-mk2-equipment",
-    "name": "Battery Mk2 Equipment",
-    "icon": "__base__/graphics/icons/battery-mk2-equipment.png"
-  },
-  {
-    "id": "distractor-capsule",
-    "name": "Distractor Capsule",
-    "icon": "__base__/graphics/icons/distractor-capsule.png"
-  },
-  {
-    "id": "uranium-238",
-    "name": "Uranium 238",
-    "icon": "__base__/graphics/icons/uranium-238.png"
-  },
-  {
-    "id": "solar-panel",
-    "name": "Solar Panel",
-    "icon": "__base__/graphics/icons/solar-panel.png"
-  },
-  {
-    "id": "shotgun-shell",
-    "name": "Shotgun Shell",
-    "icon": "__base__/graphics/icons/shotgun-shell.png"
-  },
-  {
-    "id": "water-barrel",
-    "name": "Water Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
-  },
-  {
-    "id": "underground-belt",
-    "name": "Underground Belt",
-    "icon": "__base__/graphics/icons/underground-belt.png"
-  },
-  {
-    "id": "flying-robot-frame",
-    "name": "Flying Robot Frame",
-    "icon": "__base__/graphics/icons/flying-robot-frame.png"
+    "id": "beacon",
+    "name": "Beacon",
+    "icon": "__base__/graphics/icons/beacon.png"
   },
   {
     "id": "low-density-structure",
@@ -315,59 +55,9 @@
     "icon": "__base__/graphics/icons/low-density-structure.png"
   },
   {
-    "id": "plastic-bar",
-    "name": "Plastic Bar",
-    "icon": "__base__/graphics/icons/plastic-bar.png"
-  },
-  {
-    "id": "flamethrower-turret",
-    "name": "Flamethrower Turret",
-    "icon": "__base__/graphics/icons/flamethrower-turret.png"
-  },
-  {
-    "id": "gate",
-    "name": "Gate",
-    "icon": "__base__/graphics/icons/gate.png"
-  },
-  {
-    "id": "assembling-machine-2",
-    "name": "Assembling Machine 2",
-    "icon": "__base__/graphics/icons/assembling-machine-2.png"
-  },
-  {
-    "id": "assembling-machine-1",
-    "name": "Assembling Machine 1",
-    "icon": "__base__/graphics/icons/assembling-machine-1.png"
-  },
-  {
-    "id": "efficiency-module",
-    "name": "Efficiency Module",
-    "icon": "__base__/graphics/icons/efficiency-module.png"
-  },
-  {
-    "id": "boiler",
-    "name": "Boiler",
-    "icon": "__base__/graphics/icons/boiler.png"
-  },
-  {
-    "id": "concrete",
-    "name": "Concrete",
-    "icon": "__base__/graphics/icons/concrete.png"
-  },
-  {
-    "id": "copper-cable",
-    "name": "Copper Cable",
-    "icon": "__base__/graphics/icons/copper-cable.png"
-  },
-  {
-    "id": "express-splitter",
-    "name": "Express Splitter",
-    "icon": "__base__/graphics/icons/express-splitter.png"
-  },
-  {
-    "id": "cargo-landing-pad",
-    "name": "Cargo Landing Pad",
-    "icon": "__base__/graphics/icons/cargo-landing-pad.png"
+    "id": "substation",
+    "name": "Substation",
+    "icon": "__base__/graphics/icons/substation.png"
   },
   {
     "id": "speed-module-2",
@@ -380,174 +70,9 @@
     "icon": "__base__/graphics/icons/military-science-pack.png"
   },
   {
-    "id": "pumpjack",
-    "name": "Pumpjack",
-    "icon": "__base__/graphics/icons/pumpjack.png"
-  },
-  {
-    "id": "exoskeleton-equipment",
-    "name": "Exoskeleton Equipment",
-    "icon": "__base__/graphics/icons/exoskeleton-equipment.png"
-  },
-  {
-    "id": "power-armor-mk2",
-    "name": "Power Armor Mk2",
-    "icon": "__base__/graphics/icons/power-armor-mk2.png"
-  },
-  {
-    "id": "productivity-module",
-    "name": "Productivity Module",
-    "icon": "__base__/graphics/icons/productivity-module.png"
-  },
-  {
-    "id": "buffer-chest",
-    "name": "Buffer Chest",
-    "icon": "__base__/graphics/icons/buffer-chest.png"
-  },
-  {
-    "id": "combat-shotgun",
-    "name": "Combat Shotgun",
-    "icon": "__base__/graphics/icons/combat-shotgun.png"
-  },
-  {
-    "id": "power-armor",
-    "name": "Power Armor",
-    "icon": "__base__/graphics/icons/power-armor.png"
-  },
-  {
-    "id": "iron-ore",
-    "name": "Iron Ore",
-    "icon": "__base__/graphics/icons/iron-ore.png"
-  },
-  {
-    "id": "submachine-gun",
-    "name": "Submachine Gun",
-    "icon": "__base__/graphics/icons/submachine-gun.png"
-  },
-  {
-    "id": "personal-roboport-equipment",
-    "name": "Personal Roboport Equipment",
-    "icon": "__base__/graphics/icons/personal-roboport-equipment.png"
-  },
-  {
-    "id": "burner-inserter",
-    "name": "Burner Inserter",
-    "icon": "__base__/graphics/icons/burner-inserter.png"
-  },
-  {
-    "id": "requester-chest",
-    "name": "Requester Chest",
-    "icon": "__base__/graphics/icons/requester-chest.png"
-  },
-  {
-    "id": "steam-turbine",
-    "name": "Steam Turbine",
-    "icon": "__base__/graphics/icons/steam-turbine.png"
-  },
-  {
-    "id": "rocket",
-    "name": "Rocket",
-    "icon": "__base__/graphics/icons/rocket.png"
-  },
-  {
-    "id": "piercing-rounds-magazine",
-    "name": "Piercing Rounds Magazine",
-    "icon": "__base__/graphics/icons/piercing-rounds-magazine.png"
-  },
-  {
-    "id": "tank",
-    "name": "Tank",
-    "icon": "__base__/graphics/icons/tank.png"
-  },
-  {
-    "id": "grenade",
-    "name": "Grenade",
-    "icon": "__base__/graphics/icons/grenade.png"
-  },
-  {
-    "id": "radar",
-    "name": "Radar",
-    "icon": "__base__/graphics/icons/radar.png"
-  },
-  {
-    "id": "steel-plate",
-    "name": "Steel Plate",
-    "icon": "__base__/graphics/icons/steel-plate.png"
-  },
-  {
-    "id": "rail-signal",
-    "name": "Rail Signal",
-    "icon": "__base__/graphics/icons/rail-signal.png"
-  },
-  {
-    "id": "logistic-science-pack",
-    "name": "Logistic Science Pack",
-    "icon": "__base__/graphics/icons/logistic-science-pack.png"
-  },
-  {
-    "id": "land-mine",
-    "name": "Land Mine",
-    "icon": "__base__/graphics/icons/land-mine.png"
-  },
-  {
-    "id": "nuclear-reactor",
-    "name": "Nuclear Reactor",
-    "icon": "__base__/graphics/icons/nuclear-reactor.png"
-  },
-  {
-    "id": "uranium-235",
-    "name": "Uranium 235",
-    "icon": "__base__/graphics/icons/uranium-235.png"
-  },
-  {
-    "id": "discharge-defense-equipment",
-    "name": "Discharge Defense Equipment",
-    "icon": "__base__/graphics/icons/discharge-defense-equipment.png"
-  },
-  {
-    "id": "spidertron",
-    "name": "Spidertron",
-    "icon": "__base__/graphics/icons/spidertron.png"
-  },
-  {
-    "id": "repair-pack",
-    "name": "Repair Pack",
-    "icon": "__base__/graphics/icons/repair-pack.png"
-  },
-  {
-    "id": "explosive-uranium-cannon-shell",
-    "name": "Explosive Uranium Cannon Shell",
-    "icon": "__base__/graphics/icons/explosive-uranium-cannon-shell.png"
-  },
-  {
-    "id": "uranium-rounds-magazine",
-    "name": "Uranium Rounds Magazine",
-    "icon": "__base__/graphics/icons/uranium-rounds-magazine.png"
-  },
-  {
-    "id": "cluster-grenade",
-    "name": "Cluster Grenade",
-    "icon": "__base__/graphics/icons/cluster-grenade.png"
-  },
-  {
-    "id": "artillery-wagon",
-    "name": "Artillery Wagon",
-    "icon": "__base__/graphics/icons/artillery-wagon.png"
-  },
-  {
-    "id": "uranium-cannon-shell",
-    "name": "Uranium Cannon Shell",
-    "icon": "__base__/graphics/icons/uranium-cannon-shell.png"
-  },
-  {
-    "id": "productivity-module-2",
-    "name": "Productivity Module 2",
-    "icon": "__base__/graphics/icons/productivity-module-2.png"
-  },
-  {
-    "id": "efficiency-module-2",
-    "name": "Efficiency Module 2",
-    "icon": "__base__/graphics/icons/efficiency-module-2.png"
+    "id": "speed-module-3",
+    "name": "Speed Module 3",
+    "icon": "__base__/graphics/icons/speed-module-3.png"
   },
   {
     "id": "steel-chest",
@@ -555,269 +80,14 @@
     "icon": "__base__/graphics/icons/steel-chest.png"
   },
   {
-    "id": "cliff-explosives",
-    "name": "Cliff Explosives",
-    "icon": "__base__/graphics/icons/cliff-explosives.png"
+    "id": "explosive-uranium-cannon-shell",
+    "name": "Explosive Uranium Cannon Shell",
+    "icon": "__base__/graphics/icons/explosive-uranium-cannon-shell.png"
   },
   {
-    "id": "cargo-wagon",
-    "name": "Cargo Wagon",
-    "icon": "__base__/graphics/icons/cargo-wagon.png"
-  },
-  {
-    "id": "personal-roboport-mk2-equipment",
-    "name": "Personal Roboport Mk2 Equipment",
-    "icon": "__base__/graphics/icons/personal-roboport-mk2-equipment.png"
-  },
-  {
-    "id": "stone-wall",
-    "name": "Stone Wall",
-    "icon": "__base__/graphics/icons/wall.png"
-  },
-  {
-    "id": "explosive-rocket",
-    "name": "Explosive Rocket",
-    "icon": "__base__/graphics/icons/explosive-rocket.png"
-  },
-  {
-    "id": "decider-combinator",
-    "name": "Decider Combinator",
-    "icon": "__base__/graphics/icons/decider-combinator.png"
-  },
-  {
-    "id": "shotgun",
-    "name": "Shotgun",
-    "icon": "__base__/graphics/icons/shotgun.png"
-  },
-  {
-    "id": "roboport",
-    "name": "Roboport",
-    "icon": "__base__/graphics/icons/roboport.png"
-  },
-  {
-    "id": "hazard-concrete",
-    "name": "Hazard Concrete",
-    "icon": "__base__/graphics/icons/hazard-concrete.png"
-  },
-  {
-    "id": "arithmetic-combinator",
-    "name": "Arithmetic Combinator",
-    "icon": "__base__/graphics/icons/arithmetic-combinator.png"
-  },
-  {
-    "id": "speed-module-3",
-    "name": "Speed Module 3",
-    "icon": "__base__/graphics/icons/speed-module-3.png"
-  },
-  {
-    "id": "flamethrower-ammo",
-    "name": "Flamethrower Ammo",
-    "icon": "__base__/graphics/icons/flamethrower-ammo.png"
-  },
-  {
-    "id": "accumulator",
-    "name": "Accumulator",
-    "icon": "__base__/graphics/icons/accumulator.png"
-  },
-  {
-    "id": "copper-plate",
-    "name": "Copper Plate",
-    "icon": "__base__/graphics/icons/copper-plate.png"
-  },
-  {
-    "id": "wooden-chest",
-    "name": "Wooden Chest",
-    "icon": "__base__/graphics/icons/wooden-chest.png"
-  },
-  {
-    "id": "fast-inserter",
-    "name": "Fast Inserter",
-    "icon": "__base__/graphics/icons/fast-inserter.png"
-  },
-  {
-    "id": "small-lamp",
-    "name": "Small Lamp",
-    "icon": "__base__/graphics/icons/small-lamp.png"
-  },
-  {
-    "id": "medium-electric-pole",
-    "name": "Medium Electric Pole",
-    "icon": "__base__/graphics/icons/medium-electric-pole.png"
-  },
-  {
-    "id": "storage-tank",
-    "name": "Storage Tank",
-    "icon": "__base__/graphics/icons/storage-tank.png"
-  },
-  {
-    "id": "heat-exchanger",
-    "name": "Heat Exchanger",
-    "icon": "__base__/graphics/icons/heat-boiler.png"
-  },
-  {
-    "id": "crude-oil-barrel",
-    "name": "Crude Oil Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
-  },
-  {
-    "id": "refined-concrete",
-    "name": "Refined Concrete",
-    "icon": "__base__/graphics/icons/refined-concrete.png"
-  },
-  {
-    "id": "active-provider-chest",
-    "name": "Active Provider Chest",
-    "icon": "__base__/graphics/icons/active-provider-chest.png"
-  },
-  {
-    "id": "light-oil-barrel",
-    "name": "Light Oil Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
-  },
-  {
-    "id": "constant-combinator",
-    "name": "Constant Combinator",
-    "icon": "__base__/graphics/icons/constant-combinator.png"
-  },
-  {
-    "id": "locomotive",
-    "name": "Locomotive",
-    "icon": "__base__/graphics/icons/locomotive.png"
-  },
-  {
-    "id": "stone",
-    "name": "Stone",
-    "icon": "__base__/graphics/icons/stone.png"
-  },
-  {
-    "id": "logistic-robot",
-    "name": "Logistic Robot",
-    "icon": "__base__/graphics/icons/logistic-robot.png"
-  },
-  {
-    "id": "advanced-circuit",
-    "name": "Advanced Circuit",
-    "icon": "__base__/graphics/icons/advanced-circuit.png"
-  },
-  {
-    "id": "electronic-circuit",
-    "name": "Electronic Circuit",
-    "icon": "__base__/graphics/icons/electronic-circuit.png"
-  },
-  {
-    "id": "small-electric-pole",
-    "name": "Small Electric Pole",
-    "icon": "__base__/graphics/icons/small-electric-pole.png"
-  },
-  {
-    "id": "uranium-ore",
-    "name": "Uranium Ore",
-    "icon": "__base__/graphics/icons/uranium-ore.png"
-  },
-  {
-    "id": "petroleum-gas-barrel",
-    "name": "Petroleum Gas Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
-  },
-  {
-    "id": "nuclear-fuel",
-    "name": "Nuclear Fuel",
-    "icon": "__base__/graphics/icons/nuclear-fuel.png"
-  },
-  {
-    "id": "iron-gear-wheel",
-    "name": "Iron Gear Wheel",
-    "icon": "__base__/graphics/icons/iron-gear-wheel.png"
-  },
-  {
-    "id": "storage-chest",
-    "name": "Storage Chest",
-    "icon": "__base__/graphics/icons/storage-chest.png"
-  },
-  {
-    "id": "flamethrower",
-    "name": "Flamethrower",
-    "icon": "__base__/graphics/icons/flamethrower.png"
-  },
-  {
-    "id": "transport-belt",
-    "name": "Transport Belt",
-    "icon": "__base__/graphics/icons/transport-belt.png"
-  },
-  {
-    "id": "refined-hazard-concrete",
-    "name": "Refined Hazard Concrete",
-    "icon": "__base__/graphics/icons/refined-hazard-concrete.png"
-  },
-  {
-    "id": "iron-stick",
-    "name": "Iron Stick",
-    "icon": "__base__/graphics/icons/iron-stick.png"
-  },
-  {
-    "id": "piercing-shotgun-shell",
-    "name": "Piercing Shotgun Shell",
-    "icon": "__base__/graphics/icons/piercing-shotgun-shell.png"
-  },
-  {
-    "id": "steam-engine",
-    "name": "Steam Engine",
-    "icon": "__base__/graphics/icons/steam-engine.png"
-  },
-  {
-    "id": "battery",
-    "name": "Battery",
-    "icon": "__base__/graphics/icons/battery.png"
-  },
-  {
-    "id": "heavy-oil-barrel",
-    "name": "Heavy Oil Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
-  },
-  {
-    "id": "explosive-cannon-shell",
-    "name": "Explosive Cannon Shell",
-    "icon": "__base__/graphics/icons/explosive-cannon-shell.png"
-  },
-  {
-    "id": "express-transport-belt",
-    "name": "Express Transport Belt",
-    "icon": "__base__/graphics/icons/express-transport-belt.png"
-  },
-  {
-    "id": "rocket-launcher",
-    "name": "Rocket Launcher",
-    "icon": "__base__/graphics/icons/rocket-launcher.png"
-  },
-  {
-    "id": "efficiency-module-3",
-    "name": "Efficiency Module 3",
-    "icon": "__base__/graphics/icons/efficiency-module-3.png"
-  },
-  {
-    "id": "firearm-magazine",
-    "name": "Firearm Magazine",
-    "icon": "__base__/graphics/icons/firearm-magazine.png"
-  },
-  {
-    "id": "big-electric-pole",
-    "name": "Big Electric Pole",
-    "icon": "__base__/graphics/icons/big-electric-pole.png"
-  },
-  {
-    "id": "chemical-science-pack",
-    "name": "Chemical Science Pack",
-    "icon": "__base__/graphics/icons/chemical-science-pack.png"
-  },
-  {
-    "id": "lab",
-    "name": "Lab",
-    "icon": "__base__/graphics/icons/lab.png"
-  },
-  {
-    "id": "fast-underground-belt",
-    "name": "Fast Underground Belt",
-    "icon": "__base__/graphics/icons/fast-underground-belt.png"
+    "id": "solar-panel-equipment",
+    "name": "Solar Panel Equipment",
+    "icon": "__base__/graphics/icons/solar-panel-equipment.png"
   },
   {
     "id": "productivity-module-3",
@@ -825,89 +95,44 @@
     "icon": "__base__/graphics/icons/productivity-module-3.png"
   },
   {
-    "id": "power-switch",
-    "name": "Power Switch",
-    "icon": "__base__/graphics/icons/power-switch.png"
+    "id": "copper-ore",
+    "name": "Copper Ore",
+    "icon": "__base__/graphics/icons/copper-ore.png"
   },
   {
-    "id": "centrifuge",
-    "name": "Centrifuge",
-    "icon": "__base__/graphics/icons/centrifuge.png"
+    "id": "active-provider-chest",
+    "name": "Active Provider Chest",
+    "icon": "__base__/graphics/icons/active-provider-chest.png"
   },
   {
-    "id": "fission-reactor-equipment",
-    "name": "Fission Reactor Equipment",
-    "icon": "__base__/graphics/icons/fission-reactor-equipment.png"
+    "id": "rail",
+    "name": "Rail",
+    "icon": "__base__/graphics/icons/rail.png"
   },
   {
-    "id": "utility-science-pack",
-    "name": "Utility Science Pack",
-    "icon": "__base__/graphics/icons/utility-science-pack.png"
+    "id": "fast-inserter",
+    "name": "Fast Inserter",
+    "icon": "__base__/graphics/icons/fast-inserter.png"
   },
   {
-    "id": "night-vision-equipment",
-    "name": "Night Vision Equipment",
-    "icon": "__base__/graphics/icons/night-vision-equipment.png"
+    "id": "cargo-wagon",
+    "name": "Cargo Wagon",
+    "icon": "__base__/graphics/icons/cargo-wagon.png"
   },
   {
-    "id": "gun-turret",
-    "name": "Gun Turret",
-    "icon": "__base__/graphics/icons/gun-turret.png"
+    "id": "combat-shotgun",
+    "name": "Combat Shotgun",
+    "icon": "__base__/graphics/icons/combat-shotgun.png"
   },
   {
-    "id": "express-underground-belt",
-    "name": "Express Underground Belt",
-    "icon": "__base__/graphics/icons/express-underground-belt.png"
+    "id": "energy-shield-equipment",
+    "name": "Energy Shield Equipment",
+    "icon": "__base__/graphics/icons/energy-shield-equipment.png"
   },
   {
-    "id": "cannon-shell",
-    "name": "Cannon Shell",
-    "icon": "__base__/graphics/icons/cannon-shell.png"
-  },
-  {
-    "id": "pipe",
-    "name": "Pipe",
-    "icon": "__base__/graphics/icons/pipe.png"
-  },
-  {
-    "id": "selector-combinator",
-    "name": "Selector Combinator",
-    "icon": "__base__/graphics/icons/selector-combinator.png"
-  },
-  {
-    "id": "splitter",
-    "name": "Splitter",
-    "icon": "__base__/graphics/icons/splitter.png"
-  },
-  {
-    "id": "construction-robot",
-    "name": "Construction Robot",
-    "icon": "__base__/graphics/icons/construction-robot.png"
-  },
-  {
-    "id": "rail-chain-signal",
-    "name": "Rail Chain Signal",
-    "icon": "__base__/graphics/icons/rail-chain-signal.png"
-  },
-  {
-    "id": "atomic-bomb",
-    "name": "Atomic Bomb",
-    "icon": "__base__/graphics/icons/atomic-bomb.png"
-  },
-  {
-    "id": "stone-furnace",
-    "name": "Stone Furnace",
-    "icon": "__base__/graphics/icons/stone-furnace.png"
-  },
-  {
-    "id": "burner-mining-drill",
-    "name": "Burner Mining Drill",
-    "icon": "__base__/graphics/icons/burner-mining-drill.png"
-  },
-  {
-    "id": "pipe-to-ground",
-    "name": "Pipe To Ground",
-    "icon": "__base__/graphics/icons/pipe-to-ground.png"
+    "id": "coal",
+    "name": "Coal",
+    "icon": "__base__/graphics/icons/coal.png"
   },
   {
     "id": "poison-capsule",
@@ -915,39 +140,239 @@
     "icon": "__base__/graphics/icons/poison-capsule.png"
   },
   {
-    "id": "sulfur",
-    "name": "Sulfur",
-    "icon": "__base__/graphics/icons/sulfur.png"
+    "id": "nuclear-fuel",
+    "name": "Nuclear Fuel",
+    "icon": "__base__/graphics/icons/nuclear-fuel.png"
   },
   {
-    "id": "landfill",
-    "name": "Landfill",
-    "icon": "__base__/graphics/icons/landfill.png"
+    "id": "uranium-cannon-shell",
+    "name": "Uranium Cannon Shell",
+    "icon": "__base__/graphics/icons/uranium-cannon-shell.png"
   },
   {
-    "id": "beacon",
-    "name": "Beacon",
-    "icon": "__base__/graphics/icons/beacon.png"
+    "id": "advanced-circuit",
+    "name": "Advanced Circuit",
+    "icon": "__base__/graphics/icons/advanced-circuit.png"
   },
   {
-    "id": "offshore-pump",
-    "name": "Offshore Pump",
-    "icon": "__base__/graphics/icons/offshore-pump.png"
+    "id": "battery-equipment",
+    "name": "Battery Equipment",
+    "icon": "__base__/graphics/icons/battery-equipment.png"
   },
   {
-    "id": "barrel",
-    "name": "Barrel",
-    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+    "id": "uranium-235",
+    "name": "Uranium 235",
+    "icon": "__base__/graphics/icons/uranium-235.png"
   },
   {
-    "id": "copper-ore",
-    "name": "Copper Ore",
-    "icon": "__base__/graphics/icons/copper-ore.png"
+    "id": "car",
+    "name": "Car",
+    "icon": "__base__/graphics/icons/car.png"
   },
   {
-    "id": "inserter",
-    "name": "Inserter",
-    "icon": "__base__/graphics/icons/inserter.png"
+    "id": "satellite",
+    "name": "Satellite",
+    "icon": "__base__/graphics/icons/satellite.png"
+  },
+  {
+    "id": "transport-belt",
+    "name": "Transport Belt",
+    "icon": "__base__/graphics/icons/transport-belt.png"
+  },
+  {
+    "id": "shotgun",
+    "name": "Shotgun",
+    "icon": "__base__/graphics/icons/shotgun.png"
+  },
+  {
+    "id": "rocket-fuel",
+    "name": "Rocket Fuel",
+    "icon": "__base__/graphics/icons/rocket-fuel.png"
+  },
+  {
+    "id": "flamethrower-turret",
+    "name": "Flamethrower Turret",
+    "icon": "__base__/graphics/icons/flamethrower-turret.png"
+  },
+  {
+    "id": "electric-mining-drill",
+    "name": "Electric Mining Drill",
+    "icon": "__base__/graphics/icons/electric-mining-drill.png"
+  },
+  {
+    "id": "logistic-robot",
+    "name": "Logistic Robot",
+    "icon": "__base__/graphics/icons/logistic-robot.png"
+  },
+  {
+    "id": "distractor-capsule",
+    "name": "Distractor Capsule",
+    "icon": "__base__/graphics/icons/distractor-capsule.png"
+  },
+  {
+    "id": "pump",
+    "name": "Pump",
+    "icon": "__base__/graphics/icons/pump.png"
+  },
+  {
+    "id": "pipe",
+    "name": "Pipe",
+    "icon": "__base__/graphics/icons/pipe.png"
+  },
+  {
+    "id": "grenade",
+    "name": "Grenade",
+    "icon": "__base__/graphics/icons/grenade.png"
+  },
+  {
+    "id": "flying-robot-frame",
+    "name": "Flying Robot Frame",
+    "icon": "__base__/graphics/icons/flying-robot-frame.png"
+  },
+  {
+    "id": "splitter",
+    "name": "Splitter",
+    "icon": "__base__/graphics/icons/splitter.png"
+  },
+  {
+    "id": "heat-exchanger",
+    "name": "Heat Exchanger",
+    "icon": "__base__/graphics/icons/heat-boiler.png"
+  },
+  {
+    "id": "requester-chest",
+    "name": "Requester Chest",
+    "icon": "__base__/graphics/icons/requester-chest.png"
+  },
+  {
+    "id": "arithmetic-combinator",
+    "name": "Arithmetic Combinator",
+    "icon": "__base__/graphics/icons/arithmetic-combinator.png"
+  },
+  {
+    "id": "radar",
+    "name": "Radar",
+    "icon": "__base__/graphics/icons/radar.png"
+  },
+  {
+    "id": "uranium-238",
+    "name": "Uranium 238",
+    "icon": "__base__/graphics/icons/uranium-238.png"
+  },
+  {
+    "id": "power-switch",
+    "name": "Power Switch",
+    "icon": "__base__/graphics/icons/power-switch.png"
+  },
+  {
+    "id": "fast-underground-belt",
+    "name": "Fast Underground Belt",
+    "icon": "__base__/graphics/icons/fast-underground-belt.png"
+  },
+  {
+    "id": "cargo-landing-pad",
+    "name": "Cargo Landing Pad",
+    "icon": "__base__/graphics/icons/cargo-landing-pad.png"
+  },
+  {
+    "id": "assembling-machine-2",
+    "name": "Assembling Machine 2",
+    "icon": "__base__/graphics/icons/assembling-machine-2.png"
+  },
+  {
+    "id": "copper-plate",
+    "name": "Copper Plate",
+    "icon": "__base__/graphics/icons/copper-plate.png"
+  },
+  {
+    "id": "flamethrower-ammo",
+    "name": "Flamethrower Ammo",
+    "icon": "__base__/graphics/icons/flamethrower-ammo.png"
+  },
+  {
+    "id": "display-panel",
+    "name": "Display Panel",
+    "icon": "__base__/graphics/icons/display-panel.png"
+  },
+  {
+    "id": "discharge-defense-equipment",
+    "name": "Discharge Defense Equipment",
+    "icon": "__base__/graphics/icons/discharge-defense-equipment.png"
+  },
+  {
+    "id": "long-handed-inserter",
+    "name": "Long Handed Inserter",
+    "icon": "__base__/graphics/icons/long-handed-inserter.png"
+  },
+  {
+    "id": "heavy-armor",
+    "name": "Heavy Armor",
+    "icon": "__base__/graphics/icons/heavy-armor.png"
+  },
+  {
+    "id": "rail-signal",
+    "name": "Rail Signal",
+    "icon": "__base__/graphics/icons/rail-signal.png"
+  },
+  {
+    "id": "selector-combinator",
+    "name": "Selector Combinator",
+    "icon": "__base__/graphics/icons/selector-combinator.png"
+  },
+  {
+    "id": "small-electric-pole",
+    "name": "Small Electric Pole",
+    "icon": "__base__/graphics/icons/small-electric-pole.png"
+  },
+  {
+    "id": "fast-transport-belt",
+    "name": "Fast Transport Belt",
+    "icon": "__base__/graphics/icons/fast-transport-belt.png"
+  },
+  {
+    "id": "steel-furnace",
+    "name": "Steel Furnace",
+    "icon": "__base__/graphics/icons/steel-furnace.png"
+  },
+  {
+    "id": "wood",
+    "name": "Wood",
+    "icon": "__base__/graphics/icons/wood.png"
+  },
+  {
+    "id": "pumpjack",
+    "name": "Pumpjack",
+    "icon": "__base__/graphics/icons/pumpjack.png"
+  },
+  {
+    "id": "gun-turret",
+    "name": "Gun Turret",
+    "icon": "__base__/graphics/icons/gun-turret.png"
+  },
+  {
+    "id": "copper-cable",
+    "name": "Copper Cable",
+    "icon": "__base__/graphics/icons/copper-cable.png"
+  },
+  {
+    "id": "uranium-rounds-magazine",
+    "name": "Uranium Rounds Magazine",
+    "icon": "__base__/graphics/icons/uranium-rounds-magazine.png"
+  },
+  {
+    "id": "passive-provider-chest",
+    "name": "Passive Provider Chest",
+    "icon": "__base__/graphics/icons/passive-provider-chest.png"
+  },
+  {
+    "id": "oil-refinery",
+    "name": "Oil Refinery",
+    "icon": "__base__/graphics/icons/oil-refinery.png"
+  },
+  {
+    "id": "train-stop",
+    "name": "Train Stop",
+    "icon": "__base__/graphics/icons/train-stop.png"
   },
   {
     "id": "uranium-fuel-cell",
@@ -955,13 +380,588 @@
     "icon": "__base__/graphics/icons/uranium-fuel-cell.png"
   },
   {
+    "id": "spidertron",
+    "name": "Spidertron",
+    "icon": "__base__/graphics/icons/spidertron.png"
+  },
+  {
+    "id": "landfill",
+    "name": "Landfill",
+    "icon": "__base__/graphics/icons/landfill.png"
+  },
+  {
+    "id": "electric-engine-unit",
+    "name": "Electric Engine Unit",
+    "icon": "__base__/graphics/icons/electric-engine-unit.png"
+  },
+  {
+    "id": "construction-robot",
+    "name": "Construction Robot",
+    "icon": "__base__/graphics/icons/construction-robot.png"
+  },
+  {
+    "id": "artillery-turret",
+    "name": "Artillery Turret",
+    "icon": "__base__/graphics/icons/artillery-turret.png"
+  },
+  {
+    "id": "iron-chest",
+    "name": "Iron Chest",
+    "icon": "__base__/graphics/icons/iron-chest.png"
+  },
+  {
+    "id": "iron-plate",
+    "name": "Iron Plate",
+    "icon": "__base__/graphics/icons/iron-plate.png"
+  },
+  {
+    "id": "barrel",
+    "name": "Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "cluster-grenade",
+    "name": "Cluster Grenade",
+    "icon": "__base__/graphics/icons/cluster-grenade.png"
+  },
+  {
+    "id": "piercing-shotgun-shell",
+    "name": "Piercing Shotgun Shell",
+    "icon": "__base__/graphics/icons/piercing-shotgun-shell.png"
+  },
+  {
+    "id": "assembling-machine-1",
+    "name": "Assembling Machine 1",
+    "icon": "__base__/graphics/icons/assembling-machine-1.png"
+  },
+  {
+    "id": "depleted-uranium-fuel-cell",
+    "name": "Depleted Uranium Fuel Cell",
+    "icon": "__base__/graphics/icons/depleted-uranium-fuel-cell.png"
+  },
+  {
+    "id": "chemical-plant",
+    "name": "Chemical Plant",
+    "icon": "__base__/graphics/icons/chemical-plant.png"
+  },
+  {
+    "id": "speed-module",
+    "name": "Speed Module",
+    "icon": "__base__/graphics/icons/speed-module.png"
+  },
+  {
+    "id": "belt-immunity-equipment",
+    "name": "Belt Immunity Equipment",
+    "icon": "__base__/graphics/icons/belt-immunity-equipment.png"
+  },
+  {
+    "id": "fast-splitter",
+    "name": "Fast Splitter",
+    "icon": "__base__/graphics/icons/fast-splitter.png"
+  },
+  {
+    "id": "petroleum-gas-barrel",
+    "name": "Petroleum Gas Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "defender-capsule",
+    "name": "Defender Capsule",
+    "icon": "__base__/graphics/icons/defender-capsule.png"
+  },
+  {
+    "id": "cannon-shell",
+    "name": "Cannon Shell",
+    "icon": "__base__/graphics/icons/cannon-shell.png"
+  },
+  {
+    "id": "battery-mk2-equipment",
+    "name": "Battery Mk2 Equipment",
+    "icon": "__base__/graphics/icons/battery-mk2-equipment.png"
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "icon": "__base__/graphics/icons/stone.png"
+  },
+  {
+    "id": "electric-furnace",
+    "name": "Electric Furnace",
+    "icon": "__base__/graphics/icons/electric-furnace.png"
+  },
+  {
+    "id": "tank",
+    "name": "Tank",
+    "icon": "__base__/graphics/icons/tank.png"
+  },
+  {
+    "id": "heavy-oil-barrel",
+    "name": "Heavy Oil Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "artillery-wagon",
+    "name": "Artillery Wagon",
+    "icon": "__base__/graphics/icons/artillery-wagon.png"
+  },
+  {
+    "id": "rocket-silo",
+    "name": "Rocket Silo",
+    "icon": "__base__/graphics/icons/rocket-silo.png"
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket",
+    "icon": "__base__/graphics/icons/rocket.png"
+  },
+  {
+    "id": "steam-turbine",
+    "name": "Steam Turbine",
+    "icon": "__base__/graphics/icons/steam-turbine.png"
+  },
+  {
+    "id": "burner-mining-drill",
+    "name": "Burner Mining Drill",
+    "icon": "__base__/graphics/icons/burner-mining-drill.png"
+  },
+  {
+    "id": "lubricant-barrel",
+    "name": "Lubricant Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "night-vision-equipment",
+    "name": "Night Vision Equipment",
+    "icon": "__base__/graphics/icons/night-vision-equipment.png"
+  },
+  {
+    "id": "heat-pipe",
+    "name": "Heat Pipe",
+    "icon": "__base__/graphics/icons/heat-pipe.png"
+  },
+  {
+    "id": "efficiency-module",
+    "name": "Efficiency Module",
+    "icon": "__base__/graphics/icons/efficiency-module.png"
+  },
+  {
+    "id": "productivity-module-2",
+    "name": "Productivity Module 2",
+    "icon": "__base__/graphics/icons/productivity-module-2.png"
+  },
+  {
+    "id": "stone-wall",
+    "name": "Stone Wall",
+    "icon": "__base__/graphics/icons/wall.png"
+  },
+  {
+    "id": "decider-combinator",
+    "name": "Decider Combinator",
+    "icon": "__base__/graphics/icons/decider-combinator.png"
+  },
+  {
+    "id": "concrete",
+    "name": "Concrete",
+    "icon": "__base__/graphics/icons/concrete.png"
+  },
+  {
+    "id": "pipe-to-ground",
+    "name": "Pipe To Ground",
+    "icon": "__base__/graphics/icons/pipe-to-ground.png"
+  },
+  {
+    "id": "stone-furnace",
+    "name": "Stone Furnace",
+    "icon": "__base__/graphics/icons/stone-furnace.png"
+  },
+  {
+    "id": "exoskeleton-equipment",
+    "name": "Exoskeleton Equipment",
+    "icon": "__base__/graphics/icons/exoskeleton-equipment.png"
+  },
+  {
+    "id": "offshore-pump",
+    "name": "Offshore Pump",
+    "icon": "__base__/graphics/icons/offshore-pump.png"
+  },
+  {
+    "id": "express-transport-belt",
+    "name": "Express Transport Belt",
+    "icon": "__base__/graphics/icons/express-transport-belt.png"
+  },
+  {
+    "id": "boiler",
+    "name": "Boiler",
+    "icon": "__base__/graphics/icons/boiler.png"
+  },
+  {
+    "id": "refined-concrete",
+    "name": "Refined Concrete",
+    "icon": "__base__/graphics/icons/refined-concrete.png"
+  },
+  {
+    "id": "iron-stick",
+    "name": "Iron Stick",
+    "icon": "__base__/graphics/icons/iron-stick.png"
+  },
+  {
+    "id": "destroyer-capsule",
+    "name": "Destroyer Capsule",
+    "icon": "__base__/graphics/icons/destroyer-capsule.png"
+  },
+  {
+    "id": "steam-engine",
+    "name": "Steam Engine",
+    "icon": "__base__/graphics/icons/steam-engine.png"
+  },
+  {
+    "id": "inserter",
+    "name": "Inserter",
+    "icon": "__base__/graphics/icons/inserter.png"
+  },
+  {
+    "id": "explosives",
+    "name": "Explosives",
+    "icon": "__base__/graphics/icons/explosives.png"
+  },
+  {
+    "id": "laser-turret",
+    "name": "Laser Turret",
+    "icon": "__base__/graphics/icons/laser-turret.png"
+  },
+  {
+    "id": "express-splitter",
+    "name": "Express Splitter",
+    "icon": "__base__/graphics/icons/express-splitter.png"
+  },
+  {
+    "id": "accumulator",
+    "name": "Accumulator",
+    "icon": "__base__/graphics/icons/accumulator.png"
+  },
+  {
+    "id": "productivity-module",
+    "name": "Productivity Module",
+    "icon": "__base__/graphics/icons/productivity-module.png"
+  },
+  {
+    "id": "fission-reactor-equipment",
+    "name": "Fission Reactor Equipment",
+    "icon": "__base__/graphics/icons/fission-reactor-equipment.png"
+  },
+  {
+    "id": "burner-inserter",
+    "name": "Burner Inserter",
+    "icon": "__base__/graphics/icons/burner-inserter.png"
+  },
+  {
+    "id": "centrifuge",
+    "name": "Centrifuge",
+    "icon": "__base__/graphics/icons/centrifuge.png"
+  },
+  {
+    "id": "personal-roboport-equipment",
+    "name": "Personal Roboport Equipment",
+    "icon": "__base__/graphics/icons/personal-roboport-equipment.png"
+  },
+  {
+    "id": "atomic-bomb",
+    "name": "Atomic Bomb",
+    "icon": "__base__/graphics/icons/atomic-bomb.png"
+  },
+  {
+    "id": "rocket-launcher",
+    "name": "Rocket Launcher",
+    "icon": "__base__/graphics/icons/rocket-launcher.png"
+  },
+  {
+    "id": "gate",
+    "name": "Gate",
+    "icon": "__base__/graphics/icons/gate.png"
+  },
+  {
+    "id": "constant-combinator",
+    "name": "Constant Combinator",
+    "icon": "__base__/graphics/icons/constant-combinator.png"
+  },
+  {
+    "id": "power-armor",
+    "name": "Power Armor",
+    "icon": "__base__/graphics/icons/power-armor.png"
+  },
+  {
+    "id": "cliff-explosives",
+    "name": "Cliff Explosives",
+    "icon": "__base__/graphics/icons/cliff-explosives.png"
+  },
+  {
+    "id": "storage-tank",
+    "name": "Storage Tank",
+    "icon": "__base__/graphics/icons/storage-tank.png"
+  },
+  {
+    "id": "underground-belt",
+    "name": "Underground Belt",
+    "icon": "__base__/graphics/icons/underground-belt.png"
+  },
+  {
+    "id": "electronic-circuit",
+    "name": "Electronic Circuit",
+    "icon": "__base__/graphics/icons/electronic-circuit.png"
+  },
+  {
+    "id": "explosive-cannon-shell",
+    "name": "Explosive Cannon Shell",
+    "icon": "__base__/graphics/icons/explosive-cannon-shell.png"
+  },
+  {
+    "id": "water-barrel",
+    "name": "Water Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "personal-roboport-mk2-equipment",
+    "name": "Personal Roboport Mk2 Equipment",
+    "icon": "__base__/graphics/icons/personal-roboport-mk2-equipment.png"
+  },
+  {
+    "id": "automation-science-pack",
+    "name": "Automation Science Pack",
+    "icon": "__base__/graphics/icons/automation-science-pack.png"
+  },
+  {
+    "id": "solar-panel",
+    "name": "Solar Panel",
+    "icon": "__base__/graphics/icons/solar-panel.png"
+  },
+  {
+    "id": "uranium-ore",
+    "name": "Uranium Ore",
+    "icon": "__base__/graphics/icons/uranium-ore.png"
+  },
+  {
+    "id": "piercing-rounds-magazine",
+    "name": "Piercing Rounds Magazine",
+    "icon": "__base__/graphics/icons/piercing-rounds-magazine.png"
+  },
+  {
+    "id": "utility-science-pack",
+    "name": "Utility Science Pack",
+    "icon": "__base__/graphics/icons/utility-science-pack.png"
+  },
+  {
+    "id": "wooden-chest",
+    "name": "Wooden Chest",
+    "icon": "__base__/graphics/icons/wooden-chest.png"
+  },
+  {
+    "id": "refined-hazard-concrete",
+    "name": "Refined Hazard Concrete",
+    "icon": "__base__/graphics/icons/refined-hazard-concrete.png"
+  },
+  {
+    "id": "submachine-gun",
+    "name": "Submachine Gun",
+    "icon": "__base__/graphics/icons/submachine-gun.png"
+  },
+  {
+    "id": "land-mine",
+    "name": "Land Mine",
+    "icon": "__base__/graphics/icons/land-mine.png"
+  },
+  {
+    "id": "rocket-part",
+    "name": "Rocket Part",
+    "icon": "__base__/graphics/icons/rocket-part.png"
+  },
+  {
+    "id": "storage-chest",
+    "name": "Storage Chest",
+    "icon": "__base__/graphics/icons/storage-chest.png"
+  },
+  {
+    "id": "efficiency-module-2",
+    "name": "Efficiency Module 2",
+    "icon": "__base__/graphics/icons/efficiency-module-2.png"
+  },
+  {
+    "id": "programmable-speaker",
+    "name": "Programmable Speaker",
+    "icon": "__base__/graphics/icons/programmable-speaker.png"
+  },
+  {
+    "id": "hazard-concrete",
+    "name": "Hazard Concrete",
+    "icon": "__base__/graphics/icons/hazard-concrete.png"
+  },
+  {
+    "id": "medium-electric-pole",
+    "name": "Medium Electric Pole",
+    "icon": "__base__/graphics/icons/medium-electric-pole.png"
+  },
+  {
     "id": "production-science-pack",
     "name": "Production Science Pack",
     "icon": "__base__/graphics/icons/production-science-pack.png"
   },
   {
-    "id": "rail",
-    "name": "Rail",
-    "icon": "__base__/graphics/icons/rail.png"
+    "id": "nuclear-reactor",
+    "name": "Nuclear Reactor",
+    "icon": "__base__/graphics/icons/nuclear-reactor.png"
+  },
+  {
+    "id": "repair-pack",
+    "name": "Repair Pack",
+    "icon": "__base__/graphics/icons/repair-pack.png"
+  },
+  {
+    "id": "stone-brick",
+    "name": "Stone Brick",
+    "icon": "__base__/graphics/icons/stone-brick.png"
+  },
+  {
+    "id": "sulfur",
+    "name": "Sulfur",
+    "icon": "__base__/graphics/icons/sulfur.png"
+  },
+  {
+    "id": "lab",
+    "name": "Lab",
+    "icon": "__base__/graphics/icons/lab.png"
+  },
+  {
+    "id": "locomotive",
+    "name": "Locomotive",
+    "icon": "__base__/graphics/icons/locomotive.png"
+  },
+  {
+    "id": "rail-chain-signal",
+    "name": "Rail Chain Signal",
+    "icon": "__base__/graphics/icons/rail-chain-signal.png"
+  },
+  {
+    "id": "raw-fish",
+    "name": "Raw Fish",
+    "icon": "__base__/graphics/icons/fish.png"
+  },
+  {
+    "id": "express-underground-belt",
+    "name": "Express Underground Belt",
+    "icon": "__base__/graphics/icons/express-underground-belt.png"
+  },
+  {
+    "id": "iron-gear-wheel",
+    "name": "Iron Gear Wheel",
+    "icon": "__base__/graphics/icons/iron-gear-wheel.png"
+  },
+  {
+    "id": "roboport",
+    "name": "Roboport",
+    "icon": "__base__/graphics/icons/roboport.png"
+  },
+  {
+    "id": "assembling-machine-3",
+    "name": "Assembling Machine 3",
+    "icon": "__base__/graphics/icons/assembling-machine-3.png"
+  },
+  {
+    "id": "modular-armor",
+    "name": "Modular Armor",
+    "icon": "__base__/graphics/icons/modular-armor.png"
+  },
+  {
+    "id": "light-oil-barrel",
+    "name": "Light Oil Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "efficiency-module-3",
+    "name": "Efficiency Module 3",
+    "icon": "__base__/graphics/icons/efficiency-module-3.png"
+  },
+  {
+    "id": "plastic-bar",
+    "name": "Plastic Bar",
+    "icon": "__base__/graphics/icons/plastic-bar.png"
+  },
+  {
+    "id": "flamethrower",
+    "name": "Flamethrower",
+    "icon": "__base__/graphics/icons/flamethrower.png"
+  },
+  {
+    "id": "sulfuric-acid-barrel",
+    "name": "Sulfuric Acid Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "steel-plate",
+    "name": "Steel Plate",
+    "icon": "__base__/graphics/icons/steel-plate.png"
+  },
+  {
+    "id": "processing-unit",
+    "name": "Processing Unit",
+    "icon": "__base__/graphics/icons/processing-unit.png"
+  },
+  {
+    "id": "slowdown-capsule",
+    "name": "Slowdown Capsule",
+    "icon": "__base__/graphics/icons/slowdown-capsule.png"
+  },
+  {
+    "id": "engine-unit",
+    "name": "Engine Unit",
+    "icon": "__base__/graphics/icons/engine-unit.png"
+  },
+  {
+    "id": "power-armor-mk2",
+    "name": "Power Armor Mk2",
+    "icon": "__base__/graphics/icons/power-armor-mk2.png"
+  },
+  {
+    "id": "crude-oil-barrel",
+    "name": "Crude Oil Barrel",
+    "icon": "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
+  },
+  {
+    "id": "energy-shield-mk2-equipment",
+    "name": "Energy Shield Mk2 Equipment",
+    "icon": "__base__/graphics/icons/energy-shield-mk2-equipment.png"
+  },
+  {
+    "id": "iron-ore",
+    "name": "Iron Ore",
+    "icon": "__base__/graphics/icons/iron-ore.png"
+  },
+  {
+    "id": "shotgun-shell",
+    "name": "Shotgun Shell",
+    "icon": "__base__/graphics/icons/shotgun-shell.png"
+  },
+  {
+    "id": "explosive-rocket",
+    "name": "Explosive Rocket",
+    "icon": "__base__/graphics/icons/explosive-rocket.png"
+  },
+  {
+    "id": "battery",
+    "name": "Battery",
+    "icon": "__base__/graphics/icons/battery.png"
+  },
+  {
+    "id": "bulk-inserter",
+    "name": "Bulk Inserter",
+    "icon": "__base__/graphics/icons/bulk-inserter.png"
+  },
+  {
+    "id": "logistic-science-pack",
+    "name": "Logistic Science Pack",
+    "icon": "__base__/graphics/icons/logistic-science-pack.png"
+  },
+  {
+    "id": "light-armor",
+    "name": "Light Armor",
+    "icon": "__base__/graphics/icons/light-armor.png"
   }
 ]

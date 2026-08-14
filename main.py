@@ -168,6 +168,11 @@ def transform_fluid(fluid):
     return transformed_fluid
 
 def copy_generated_files_to_api():
+    if not API_DATA_FOLDER.exists():
+        raise FileNotFoundError(
+            f"API data folder not found: {API_DATA_FOLDER}"
+        )
+
     files_to_copy = [
         "items.json",
         "fluids.json",

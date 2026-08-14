@@ -1,11 +1,5 @@
 [
   {
-    "id": "petroleum-gas",
-    "name": "Petroleum Gas",
-    "description": "",
-    "icon": "__base__/graphics/icons/fluid/petroleum-gas.png"
-  },
-  {
     "id": "heavy-oil",
     "name": "Heavy Oil",
     "description": "",
@@ -24,16 +18,22 @@
     "icon": "__base__/graphics/icons/fluid/light-oil.png"
   },
   {
+    "id": "steam",
+    "name": "Steam",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/steam.png"
+  },
+  {
     "id": "water",
     "name": "Water",
     "description": "",
     "icon": "__base__/graphics/icons/fluid/water.png"
   },
   {
-    "id": "steam",
-    "name": "Steam",
+    "id": "petroleum-gas",
+    "name": "Petroleum Gas",
     "description": "",
-    "icon": "__base__/graphics/icons/fluid/steam.png"
+    "icon": "__base__/graphics/icons/fluid/petroleum-gas.png"
   },
   {
     "id": "sulfuric-acid",
