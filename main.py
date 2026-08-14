@@ -16,7 +16,6 @@ def transform_item(item):
     transformed_item = {
         "id": item["name"],
         "name": transform_id_to_name(item["name"]),
-        "description": item.get("description", ""),
         "icon": get_icon(item)
     }
 
