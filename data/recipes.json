@@ -1,0 +1,5455 @@
+[
+  {
+    "id": "speed-module",
+    "name": "Speed Module",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "speed-module",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "speed-module-2",
+    "name": "Speed Module 2",
+    "craftTime": 30,
+    "inputs": [
+      {
+        "resourceId": "speed-module",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "speed-module-2",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "speed-module-3",
+    "name": "Speed Module 3",
+    "craftTime": 60,
+    "inputs": [
+      {
+        "resourceId": "speed-module-2",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "speed-module-3",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "productivity-module",
+    "name": "Productivity Module",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "productivity-module",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "productivity-module-2",
+    "name": "Productivity Module 2",
+    "craftTime": 30,
+    "inputs": [
+      {
+        "resourceId": "productivity-module",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "productivity-module-2",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "productivity-module-3",
+    "name": "Productivity Module 3",
+    "craftTime": 60,
+    "inputs": [
+      {
+        "resourceId": "productivity-module-2",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "productivity-module-3",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "efficiency-module",
+    "name": "Efficiency Module",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "efficiency-module",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "efficiency-module-2",
+    "name": "Efficiency Module 2",
+    "craftTime": 30,
+    "inputs": [
+      {
+        "resourceId": "efficiency-module",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "efficiency-module-2",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "efficiency-module-3",
+    "name": "Efficiency Module 3",
+    "craftTime": 60,
+    "inputs": [
+      {
+        "resourceId": "efficiency-module-2",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "efficiency-module-3",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "bulk-inserter",
+    "name": "Bulk Inserter",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "fast-inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "bulk-inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "basic-oil-processing",
+    "name": "Basic Oil Processing",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "crude-oil",
+        "resourceType": "fluid",
+        "quantity": 100
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 45
+      }
+    ]
+  },
+  {
+    "id": "advanced-oil-processing",
+    "name": "Advanced Oil Processing",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "crude-oil",
+        "resourceType": "fluid",
+        "quantity": 100
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 25
+      },
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 45
+      },
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 55
+      }
+    ]
+  },
+  {
+    "id": "coal-liquefaction",
+    "name": "Coal Liquefaction",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "coal",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 25
+      },
+      {
+        "resourceId": "steam",
+        "resourceType": "fluid",
+        "quantity": 50
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 90
+      },
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 20
+      },
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "heavy-oil-cracking",
+    "name": "Heavy Oil Cracking",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 30
+      },
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 40
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 30
+      }
+    ]
+  },
+  {
+    "id": "light-oil-cracking",
+    "name": "Light Oil Cracking",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 30
+      },
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 30
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 20
+      }
+    ]
+  },
+  {
+    "id": "sulfuric-acid",
+    "name": "Sulfuric Acid",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "sulfur",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 100
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "sulfuric-acid",
+        "resourceType": "fluid",
+        "quantity": 50
+      }
+    ]
+  },
+  {
+    "id": "plastic-bar",
+    "name": "Plastic Bar",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 20
+      },
+      {
+        "resourceId": "coal",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "plastic-bar",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "solid-fuel-from-light-oil",
+    "name": "Solid Fuel From Light Oil",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "solid-fuel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "solid-fuel-from-petroleum-gas",
+    "name": "Solid Fuel From Petroleum Gas",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "solid-fuel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "solid-fuel-from-heavy-oil",
+    "name": "Solid Fuel From Heavy Oil",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "solid-fuel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "sulfur",
+    "name": "Sulfur",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 30
+      },
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 30
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "sulfur",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "lubricant",
+    "name": "Lubricant",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "lubricant",
+        "resourceType": "fluid",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "barrel",
+    "name": "Barrel",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "night-vision-equipment",
+    "name": "Night Vision Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "night-vision-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "belt-immunity-equipment",
+    "name": "Belt Immunity Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "belt-immunity-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "energy-shield-equipment",
+    "name": "Energy Shield Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "energy-shield-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "energy-shield-mk2-equipment",
+    "name": "Energy Shield Mk2 Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "energy-shield-equipment",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "energy-shield-mk2-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "battery-equipment",
+    "name": "Battery Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "battery",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "battery-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "battery-mk2-equipment",
+    "name": "Battery Mk2 Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "battery-equipment",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "battery-mk2-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "solar-panel-equipment",
+    "name": "Solar Panel Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "solar-panel",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "solar-panel-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "fission-reactor-equipment",
+    "name": "Fission Reactor Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 200
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 50
+      },
+      {
+        "resourceId": "uranium-fuel-cell",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "fission-reactor-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "personal-laser-defense-equipment",
+    "name": "Personal Laser Defense Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "laser-turret",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "personal-laser-defense-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "discharge-defense-equipment",
+    "name": "Discharge Defense Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "laser-turret",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "discharge-defense-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "exoskeleton-equipment",
+    "name": "Exoskeleton Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "electric-engine-unit",
+        "resourceType": "item",
+        "quantity": 30
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "exoskeleton-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "personal-roboport-equipment",
+    "name": "Personal Roboport Equipment",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 40
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "battery",
+        "resourceType": "item",
+        "quantity": 45
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "personal-roboport-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "personal-roboport-mk2-equipment",
+    "name": "Personal Roboport Mk2 Equipment",
+    "craftTime": 20,
+    "inputs": [
+      {
+        "resourceId": "personal-roboport-equipment",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "personal-roboport-mk2-equipment",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "laser-turret",
+    "name": "Laser Turret",
+    "craftTime": 20,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "battery",
+        "resourceType": "item",
+        "quantity": 12
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "laser-turret",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "flamethrower-turret",
+    "name": "Flamethrower Turret",
+    "craftTime": 20,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 30
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "flamethrower-turret",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "artillery-turret",
+    "name": "Artillery Turret",
+    "craftTime": 40,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 60
+      },
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 60
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 40
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "artillery-turret",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "gun-turret",
+    "name": "Gun Turret",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "gun-turret",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "wooden-chest",
+    "name": "Wooden Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "wood",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "wooden-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "display-panel",
+    "name": "Display Panel",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "display-panel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "iron-stick",
+    "name": "Iron Stick",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "iron-stick",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "stone-furnace",
+    "name": "Stone Furnace",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "stone",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "stone-furnace",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "boiler",
+    "name": "Boiler",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "stone-furnace",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "boiler",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "steam-engine",
+    "name": "Steam Engine",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 8
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "steam-engine",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "iron-gear-wheel",
+    "name": "Iron Gear Wheel",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "electronic-circuit",
+    "name": "Electronic Circuit",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "transport-belt",
+    "name": "Transport Belt",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "transport-belt",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "electric-mining-drill",
+    "name": "Electric Mining Drill",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "electric-mining-drill",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "burner-mining-drill",
+    "name": "Burner Mining Drill",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "stone-furnace",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "burner-mining-drill",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "inserter",
+    "name": "Inserter",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "fast-inserter",
+    "name": "Fast Inserter",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "fast-inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "long-handed-inserter",
+    "name": "Long Handed Inserter",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "long-handed-inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "burner-inserter",
+    "name": "Burner Inserter",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "burner-inserter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "pipe",
+    "name": "Pipe",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "offshore-pump",
+    "name": "Offshore Pump",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "offshore-pump",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "copper-cable",
+    "name": "Copper Cable",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "small-electric-pole",
+    "name": "Small Electric Pole",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "wood",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "small-electric-pole",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "submachine-gun",
+    "name": "Submachine Gun",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "submachine-gun",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "firearm-magazine",
+    "name": "Firearm Magazine",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "firearm-magazine",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "light-armor",
+    "name": "Light Armor",
+    "craftTime": 3,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 40
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "light-armor",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "radar",
+    "name": "Radar",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "radar",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "small-lamp",
+    "name": "Small Lamp",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "small-lamp",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "pipe-to-ground",
+    "name": "Pipe To Ground",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "pipe-to-ground",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "assembling-machine-1",
+    "name": "Assembling Machine 1",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 9
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "assembling-machine-1",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "repair-pack",
+    "name": "Repair Pack",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "repair-pack",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "automation-science-pack",
+    "name": "Automation Science Pack",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "automation-science-pack",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "logistic-science-pack",
+    "name": "Logistic Science Pack",
+    "craftTime": 6,
+    "inputs": [
+      {
+        "resourceId": "inserter",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "transport-belt",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "logistic-science-pack",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "lab",
+    "name": "Lab",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "transport-belt",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "lab",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "stone-wall",
+    "name": "Stone Wall",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "stone-brick",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "stone-wall",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "assembling-machine-2",
+    "name": "Assembling Machine 2",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "assembling-machine-1",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "assembling-machine-2",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "splitter",
+    "name": "Splitter",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "transport-belt",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "splitter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "underground-belt",
+    "name": "Underground Belt",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "transport-belt",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "underground-belt",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "car",
+    "name": "Car",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 8
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "car",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "engine-unit",
+    "name": "Engine Unit",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "iron-chest",
+    "name": "Iron Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 8
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "iron-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "big-electric-pole",
+    "name": "Big Electric Pole",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-stick",
+        "resourceType": "item",
+        "quantity": 8
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "big-electric-pole",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "medium-electric-pole",
+    "name": "Medium Electric Pole",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-stick",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "medium-electric-pole",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "shotgun",
+    "name": "Shotgun",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "wood",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "shotgun",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "shotgun-shell",
+    "name": "Shotgun Shell",
+    "craftTime": 3,
+    "inputs": [
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "shotgun-shell",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "piercing-rounds-magazine",
+    "name": "Piercing Rounds Magazine",
+    "craftTime": 6,
+    "inputs": [
+      {
+        "resourceId": "firearm-magazine",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "piercing-rounds-magazine",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "grenade",
+    "name": "Grenade",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "coal",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "grenade",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "steel-furnace",
+    "name": "Steel Furnace",
+    "craftTime": 3,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 6
+      },
+      {
+        "resourceId": "stone-brick",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "steel-furnace",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "gate",
+    "name": "Gate",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "stone-wall",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "gate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "heavy-armor",
+    "name": "Heavy Armor",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 50
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "heavy-armor",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "steel-chest",
+    "name": "Steel Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 8
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "steel-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "fast-underground-belt",
+    "name": "Fast Underground Belt",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 40
+      },
+      {
+        "resourceId": "underground-belt",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "fast-underground-belt",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "fast-splitter",
+    "name": "Fast Splitter",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "splitter",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "fast-splitter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "concrete",
+    "name": "Concrete",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "stone-brick",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-ore",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 100
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "hazard-concrete",
+    "name": "Hazard Concrete",
+    "craftTime": 0.25,
+    "inputs": [
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "hazard-concrete",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "refined-concrete",
+    "name": "Refined Concrete",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "iron-stick",
+        "resourceType": "item",
+        "quantity": 8
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 100
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "refined-concrete",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "refined-hazard-concrete",
+    "name": "Refined Hazard Concrete",
+    "craftTime": 0.25,
+    "inputs": [
+      {
+        "resourceId": "refined-concrete",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "refined-hazard-concrete",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "landfill",
+    "name": "Landfill",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "stone",
+        "resourceType": "item",
+        "quantity": 50
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "landfill",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "fast-transport-belt",
+    "name": "Fast Transport Belt",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "transport-belt",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "fast-transport-belt",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "solar-panel",
+    "name": "Solar Panel",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "solar-panel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rail",
+    "name": "Rail",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "stone",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-stick",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rail",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "locomotive",
+    "name": "Locomotive",
+    "craftTime": 4,
+    "inputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 30
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "locomotive",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "cargo-wagon",
+    "name": "Cargo Wagon",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "cargo-wagon",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rail-signal",
+    "name": "Rail Signal",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rail-signal",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rail-chain-signal",
+    "name": "Rail Chain Signal",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rail-chain-signal",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "train-stop",
+    "name": "Train Stop",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 6
+      },
+      {
+        "resourceId": "iron-stick",
+        "resourceType": "item",
+        "quantity": 6
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "train-stop",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "copper-plate",
+    "name": "Copper Plate",
+    "craftTime": 3.2,
+    "inputs": [
+      {
+        "resourceId": "copper-ore",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "iron-plate",
+    "name": "Iron Plate",
+    "craftTime": 3.2,
+    "inputs": [
+      {
+        "resourceId": "iron-ore",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "stone-brick",
+    "name": "Stone Brick",
+    "craftTime": 3.2,
+    "inputs": [
+      {
+        "resourceId": "stone",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "stone-brick",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "steel-plate",
+    "name": "Steel Plate",
+    "craftTime": 16,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "arithmetic-combinator",
+    "name": "Arithmetic Combinator",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "arithmetic-combinator",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "decider-combinator",
+    "name": "Decider Combinator",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "decider-combinator",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "constant-combinator",
+    "name": "Constant Combinator",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "constant-combinator",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "selector-combinator",
+    "name": "Selector Combinator",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "decider-combinator",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "selector-combinator",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "power-switch",
+    "name": "Power Switch",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "power-switch",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "programmable-speaker",
+    "name": "Programmable Speaker",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "iron-stick",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "programmable-speaker",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "poison-capsule",
+    "name": "Poison Capsule",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "coal",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "poison-capsule",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "slowdown-capsule",
+    "name": "Slowdown Capsule",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "coal",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "slowdown-capsule",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "cluster-grenade",
+    "name": "Cluster Grenade",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "grenade",
+        "resourceType": "item",
+        "quantity": 7
+      },
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "cluster-grenade",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "defender-capsule",
+    "name": "Defender Capsule",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "piercing-rounds-magazine",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "defender-capsule",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "distractor-capsule",
+    "name": "Distractor Capsule",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "defender-capsule",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "distractor-capsule",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "destroyer-capsule",
+    "name": "Destroyer Capsule",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "distractor-capsule",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "speed-module",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "destroyer-capsule",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "cliff-explosives",
+    "name": "Cliff Explosives",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "grenade",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "cliff-explosives",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "uranium-rounds-magazine",
+    "name": "Uranium Rounds Magazine",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "piercing-rounds-magazine",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "uranium-rounds-magazine",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket",
+    "craftTime": 4,
+    "inputs": [
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rocket",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "explosive-rocket",
+    "name": "Explosive Rocket",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "rocket",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "explosive-rocket",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "atomic-bomb",
+    "name": "Atomic Bomb",
+    "craftTime": 50,
+    "inputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "uranium-235",
+        "resourceType": "item",
+        "quantity": 30
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "atomic-bomb",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "piercing-shotgun-shell",
+    "name": "Piercing Shotgun Shell",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "shotgun-shell",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "piercing-shotgun-shell",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "cannon-shell",
+    "name": "Cannon Shell",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "plastic-bar",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "cannon-shell",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "explosive-cannon-shell",
+    "name": "Explosive Cannon Shell",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "plastic-bar",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "explosive-cannon-shell",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "uranium-cannon-shell",
+    "name": "Uranium Cannon Shell",
+    "craftTime": 12,
+    "inputs": [
+      {
+        "resourceId": "cannon-shell",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "uranium-cannon-shell",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "explosive-uranium-cannon-shell",
+    "name": "Explosive Uranium Cannon Shell",
+    "craftTime": 12,
+    "inputs": [
+      {
+        "resourceId": "explosive-cannon-shell",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "explosive-uranium-cannon-shell",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "artillery-shell",
+    "name": "Artillery Shell",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "explosive-cannon-shell",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "radar",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 8
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "artillery-shell",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "flamethrower-ammo",
+    "name": "Flamethrower Ammo",
+    "craftTime": 6,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "crude-oil",
+        "resourceType": "fluid",
+        "quantity": 100
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "flamethrower-ammo",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "express-transport-belt",
+    "name": "Express Transport Belt",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "fast-transport-belt",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "lubricant",
+        "resourceType": "fluid",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "express-transport-belt",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "assembling-machine-3",
+    "name": "Assembling Machine 3",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "speed-module",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "assembling-machine-2",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "assembling-machine-3",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "tank",
+    "name": "Tank",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 32
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 50
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "tank",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "spidertron",
+    "name": "Spidertron",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "exoskeleton-equipment",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "fission-reactor-equipment",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "rocket-launcher",
+        "resourceType": "item",
+        "quantity": 4
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 16
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 150
+      },
+      {
+        "resourceId": "radar",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "efficiency-module-3",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "raw-fish",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "spidertron",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "fluid-wagon",
+    "name": "Fluid Wagon",
+    "craftTime": 1.5,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 16
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 8
+      },
+      {
+        "resourceId": "storage-tank",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "fluid-wagon",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "artillery-wagon",
+    "name": "Artillery Wagon",
+    "craftTime": 4,
+    "inputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 64
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 40
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 16
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "artillery-wagon",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "modular-armor",
+    "name": "Modular Armor",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 30
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 50
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "modular-armor",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "power-armor",
+    "name": "Power Armor",
+    "craftTime": 20,
+    "inputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 40
+      },
+      {
+        "resourceId": "electric-engine-unit",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 40
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "power-armor",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "power-armor-mk2",
+    "name": "Power Armor Mk2",
+    "craftTime": 25,
+    "inputs": [
+      {
+        "resourceId": "efficiency-module-2",
+        "resourceType": "item",
+        "quantity": 25
+      },
+      {
+        "resourceId": "speed-module-2",
+        "resourceType": "item",
+        "quantity": 25
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 60
+      },
+      {
+        "resourceId": "electric-engine-unit",
+        "resourceType": "item",
+        "quantity": 40
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 30
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "power-armor-mk2",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "flamethrower",
+    "name": "Flamethrower",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "flamethrower",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "land-mine",
+    "name": "Land Mine",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "land-mine",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "rocket-launcher",
+    "name": "Rocket Launcher",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rocket-launcher",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "combat-shotgun",
+    "name": "Combat Shotgun",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "wood",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "combat-shotgun",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "chemical-science-pack",
+    "name": "Chemical Science Pack",
+    "craftTime": 24,
+    "inputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "sulfur",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "chemical-science-pack",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "military-science-pack",
+    "name": "Military Science Pack",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "piercing-rounds-magazine",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "grenade",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "stone-wall",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "military-science-pack",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "production-science-pack",
+    "name": "Production Science Pack",
+    "craftTime": 21,
+    "inputs": [
+      {
+        "resourceId": "electric-furnace",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "productivity-module",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "rail",
+        "resourceType": "item",
+        "quantity": 30
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "production-science-pack",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "utility-science-pack",
+    "name": "Utility Science Pack",
+    "craftTime": 21,
+    "inputs": [
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "flying-robot-frame",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "utility-science-pack",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "express-underground-belt",
+    "name": "Express Underground Belt",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 80
+      },
+      {
+        "resourceId": "fast-underground-belt",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "lubricant",
+        "resourceType": "fluid",
+        "quantity": 40
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "express-underground-belt",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "express-splitter",
+    "name": "Express Splitter",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "fast-splitter",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "lubricant",
+        "resourceType": "fluid",
+        "quantity": 80
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "express-splitter",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "advanced-circuit",
+    "name": "Advanced Circuit",
+    "craftTime": 6,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "plastic-bar",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "processing-unit",
+    "name": "Processing Unit",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "sulfuric-acid",
+        "resourceType": "fluid",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "logistic-robot",
+    "name": "Logistic Robot",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "flying-robot-frame",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "logistic-robot",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "construction-robot",
+    "name": "Construction Robot",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "flying-robot-frame",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "construction-robot",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "passive-provider-chest",
+    "name": "Passive Provider Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-chest",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "passive-provider-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "active-provider-chest",
+    "name": "Active Provider Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-chest",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "active-provider-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "storage-chest",
+    "name": "Storage Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-chest",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "storage-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "buffer-chest",
+    "name": "Buffer Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-chest",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "buffer-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "requester-chest",
+    "name": "Requester Chest",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-chest",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "requester-chest",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rocket-silo",
+    "name": "Rocket Silo",
+    "craftTime": 30,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1000
+      },
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 1000
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 200
+      },
+      {
+        "resourceId": "electric-engine-unit",
+        "resourceType": "item",
+        "quantity": 200
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rocket-silo",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "cargo-landing-pad",
+    "name": "Cargo Landing Pad",
+    "craftTime": 30,
+    "inputs": [
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 200
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 25
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "cargo-landing-pad",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "roboport",
+    "name": "Roboport",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 45
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 45
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 45
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "roboport",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "substation",
+    "name": "Substation",
+    "craftTime": 0.5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 6
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "substation",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "accumulator",
+    "name": "Accumulator",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "battery",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "accumulator",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "electric-furnace",
+    "name": "Electric Furnace",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "stone-brick",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "electric-furnace",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "beacon",
+    "name": "Beacon",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "copper-cable",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "beacon",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "pumpjack",
+    "name": "Pumpjack",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "pumpjack",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "oil-refinery",
+    "name": "Oil Refinery",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 15
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "stone-brick",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "oil-refinery",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "electric-engine-unit",
+    "name": "Electric Engine Unit",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "lubricant",
+        "resourceType": "fluid",
+        "quantity": 15
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "electric-engine-unit",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "flying-robot-frame",
+    "name": "Flying Robot Frame",
+    "craftTime": 20,
+    "inputs": [
+      {
+        "resourceId": "electric-engine-unit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "battery",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "flying-robot-frame",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "explosives",
+    "name": "Explosives",
+    "craftTime": 4,
+    "inputs": [
+      {
+        "resourceId": "sulfur",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "coal",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "explosives",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "battery",
+    "name": "Battery",
+    "craftTime": 4,
+    "inputs": [
+      {
+        "resourceId": "sulfuric-acid",
+        "resourceType": "fluid",
+        "quantity": 20
+      },
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "battery",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "storage-tank",
+    "name": "Storage Tank",
+    "craftTime": 3,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "storage-tank",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "pump",
+    "name": "Pump",
+    "craftTime": 2,
+    "inputs": [
+      {
+        "resourceId": "engine-unit",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "pump",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "chemical-plant",
+    "name": "Chemical Plant",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "electronic-circuit",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "chemical-plant",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "low-density-structure",
+    "name": "Low Density Structure",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 2
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 20
+      },
+      {
+        "resourceId": "plastic-bar",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rocket-fuel",
+    "name": "Rocket Fuel",
+    "craftTime": 15,
+    "inputs": [
+      {
+        "resourceId": "solid-fuel",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rocket-fuel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rocket-part",
+    "name": "Rocket Part",
+    "craftTime": 3,
+    "inputs": [
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "rocket-fuel",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "rocket-part",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "satellite",
+    "name": "Satellite",
+    "craftTime": 5,
+    "inputs": [
+      {
+        "resourceId": "low-density-structure",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "solar-panel",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "accumulator",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "radar",
+        "resourceType": "item",
+        "quantity": 5
+      },
+      {
+        "resourceId": "processing-unit",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "rocket-fuel",
+        "resourceType": "item",
+        "quantity": 50
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "satellite",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "nuclear-reactor",
+    "name": "Nuclear Reactor",
+    "craftTime": 8,
+    "inputs": [
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 500
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 500
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 500
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 500
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "nuclear-reactor",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "centrifuge",
+    "name": "Centrifuge",
+    "craftTime": 4,
+    "inputs": [
+      {
+        "resourceId": "concrete",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 50
+      },
+      {
+        "resourceId": "advanced-circuit",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 100
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "centrifuge",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "uranium-processing",
+    "name": "Uranium Processing",
+    "craftTime": 12,
+    "inputs": [
+      {
+        "resourceId": "uranium-ore",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "uranium-235",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "kovarex-enrichment-process",
+    "name": "Kovarex Enrichment Process",
+    "craftTime": 60,
+    "inputs": [
+      {
+        "resourceId": "uranium-235",
+        "resourceType": "item",
+        "quantity": 40
+      },
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "uranium-235",
+        "resourceType": "item",
+        "quantity": 41
+      },
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "nuclear-fuel",
+    "name": "Nuclear Fuel",
+    "craftTime": 90,
+    "inputs": [
+      {
+        "resourceId": "uranium-235",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "rocket-fuel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "nuclear-fuel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "nuclear-fuel-reprocessing",
+    "name": "Nuclear Fuel Reprocessing",
+    "craftTime": 60,
+    "inputs": [
+      {
+        "resourceId": "depleted-uranium-fuel-cell",
+        "resourceType": "item",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "uranium-fuel-cell",
+    "name": "Uranium Fuel Cell",
+    "craftTime": 10,
+    "inputs": [
+      {
+        "resourceId": "iron-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "uranium-235",
+        "resourceType": "item",
+        "quantity": 1
+      },
+      {
+        "resourceId": "uranium-238",
+        "resourceType": "item",
+        "quantity": 19
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "uranium-fuel-cell",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "heat-exchanger",
+    "name": "Heat Exchanger",
+    "craftTime": 3,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 100
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "heat-exchanger",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "heat-pipe",
+    "name": "Heat Pipe",
+    "craftTime": 1,
+    "inputs": [
+      {
+        "resourceId": "steel-plate",
+        "resourceType": "item",
+        "quantity": 10
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "heat-pipe",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "steam-turbine",
+    "name": "Steam Turbine",
+    "craftTime": 3,
+    "inputs": [
+      {
+        "resourceId": "iron-gear-wheel",
+        "resourceType": "item",
+        "quantity": 50
+      },
+      {
+        "resourceId": "copper-plate",
+        "resourceType": "item",
+        "quantity": 50
+      },
+      {
+        "resourceId": "pipe",
+        "resourceType": "item",
+        "quantity": 20
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "steam-turbine",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "water-barrel",
+    "name": "Water Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "water-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "empty-water-barrel",
+    "name": "Empty Water Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "water-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "water",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "sulfuric-acid-barrel",
+    "name": "Sulfuric Acid Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "sulfuric-acid",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "sulfuric-acid-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "empty-sulfuric-acid-barrel",
+    "name": "Empty Sulfuric Acid Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "sulfuric-acid-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "sulfuric-acid",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "crude-oil-barrel",
+    "name": "Crude Oil Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "crude-oil",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "crude-oil-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "empty-crude-oil-barrel",
+    "name": "Empty Crude Oil Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "crude-oil-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "crude-oil",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "heavy-oil-barrel",
+    "name": "Heavy Oil Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "heavy-oil-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "empty-heavy-oil-barrel",
+    "name": "Empty Heavy Oil Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "heavy-oil-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "heavy-oil",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "light-oil-barrel",
+    "name": "Light Oil Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "light-oil-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "empty-light-oil-barrel",
+    "name": "Empty Light Oil Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "light-oil-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "light-oil",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "petroleum-gas-barrel",
+    "name": "Petroleum Gas Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "petroleum-gas-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "empty-petroleum-gas-barrel",
+    "name": "Empty Petroleum Gas Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "petroleum-gas-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "petroleum-gas",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "lubricant-barrel",
+    "name": "Lubricant Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "lubricant",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "lubricant-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "empty-lubricant-barrel",
+    "name": "Empty Lubricant Barrel",
+    "craftTime": 0.2,
+    "inputs": [
+      {
+        "resourceId": "lubricant-barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "resourceId": "lubricant",
+        "resourceType": "fluid",
+        "quantity": 50
+      },
+      {
+        "resourceId": "barrel",
+        "resourceType": "item",
+        "quantity": 1
+      }
+    ]
+  }
+]

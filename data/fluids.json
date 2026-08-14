@@ -1,0 +1,50 @@
+[
+  {
+    "id": "heavy-oil",
+    "name": "Heavy Oil",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/heavy-oil.png"
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/water.png"
+  },
+  {
+    "id": "crude-oil",
+    "name": "Crude Oil",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/crude-oil.png"
+  },
+  {
+    "id": "petroleum-gas",
+    "name": "Petroleum Gas",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/petroleum-gas.png"
+  },
+  {
+    "id": "light-oil",
+    "name": "Light Oil",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/light-oil.png"
+  },
+  {
+    "id": "lubricant",
+    "name": "Lubricant",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/lubricant.png"
+  },
+  {
+    "id": "sulfuric-acid",
+    "name": "Sulfuric Acid",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/sulfuric-acid.png"
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "description": "",
+    "icon": "__base__/graphics/icons/fluid/steam.png"
+  }
+]
