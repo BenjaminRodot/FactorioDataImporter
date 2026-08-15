@@ -1,9 +1,19 @@
 import json
 from pathlib import Path
 import shutil
+from PIL import Image
+
 
 API_DATA_FOLDER = Path(
     r"C:\Users\Benjamin\OneDrive\Documents\GitHub\FactorioAPI\src\data"
+)
+
+API_ICONS_FOLDER = Path(
+    r"C:\Users\Benjamin\OneDrive\Documents\GitHub\FactorioAPI\src\public\icons"
+)
+
+FACTORIO_DATA_FOLDER = Path(
+    r"C:\Program Files (x86)\Steam\steamapps\common\Factorio\data"
 )
 
 def get_icon(prototype):
@@ -19,10 +29,12 @@ def transform_id_to_name(item_id):
     return item_id.replace("-", " ").title()
 
 def transform_item(item):
+    icon_path = get_icon(item)
+
     transformed_item = {
         "id": item["name"],
         "name": transform_id_to_name(item["name"]),
-        "icon": get_icon(item)
+        "icon": Path(icon_path).name
     }
 
     return transformed_item
@@ -158,11 +170,12 @@ def find_fluid_prototypes(data, fluid_ids):
     return fluid_prototypes
 
 def transform_fluid(fluid):
+    icon_path = get_icon(fluid)
+
     transformed_fluid = {
         "id": fluid["name"],
         "name": transform_id_to_name(fluid["name"]),
-        "description": "",
-        "icon": get_icon(fluid)
+        "icon": Path(icon_path).name
     }
 
     return transformed_fluid
@@ -186,6 +199,32 @@ def copy_generated_files_to_api():
         shutil.copy2(source, destination)
 
         print(f"Copied {file_name} to FactorioAPI")
+
+def get_factorio_icon_path(icon_path):
+    path_icons = icon_path.replace("__base__", "base").replace("__core__", "core")
+
+
+    return FACTORIO_DATA_FOLDER / path_icons
+
+def copy_icon_to_api(icon_path):
+    source = get_factorio_icon_path(icon_path)
+
+    if not source.exists():
+        print(f"Icon not found: {source}")
+        return
+
+    destination = API_ICONS_FOLDER / source.name
+
+    with Image.open(source) as image:
+        size = image.height
+
+        cropped_image = image.crop((0, 0, size, size))
+        cropped_image.save(destination)
+
+def copy_resource_icons_to_api(resource_prototypes):
+    for prototype in resource_prototypes:
+        icon_path = get_icon(prototype)
+        copy_icon_to_api(icon_path)
 
 with open("./data/data-raw-dump.json", "r", encoding="utf-8") as file:
     data = json.load(file)
@@ -221,3 +260,5 @@ with open("./data/fluids.json", "w", encoding="utf-8") as file:
     json.dump(fluid_list, file, indent=2)
 
 copy_generated_files_to_api()
+copy_resource_icons_to_api(item_prototypes)
+copy_resource_icons_to_api(fluid_prototypes)
